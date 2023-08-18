@@ -3,7 +3,7 @@ author      = "{{ cookiecutter.full_name}}"
 description = "{{ cookiecutter.project_name}}"
 license     = "{{cookiecutter.open_source_license}}"
 srcDir      = "src"
-bin         = @["{{ cookiecutter.project_name}}"]
+bin         = @["{{ cookiecutter.project_slug}}"]
 
 requires "nim >= 2.0.0"
 
