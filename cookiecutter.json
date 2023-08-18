@@ -1,0 +1,13 @@
+{
+    "project_name": "Nim Project Boilerplate",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_short_description": "Skeleton project created by Cookiecutter Nimproject",
+    "full_name": "A U Thor",
+    "email": "you@email.com",
+    "github_username": "you",
+    "version": "0.1.0",
+    "open_source_license": ["MIT", "BSD-3-Clause", "ISC", "Apache-2.0", "GPL-3.0-only", "Not open source"],
+    "_copy_without_render": ["{{ cookiecutter.project_slug }}/examples/example.nim", "{{ cookiecutter.project_slug }}/tests/test.nim", "tests/config.nims", 
+        "{{ cookiecutter.project_slug }}/src/{{ cookiecutter.project_slug }}.nim", "{{ cookiecutter.project_slug }}/src/{{ cookiecutter.project_slug }}/{{ cookiecutter.project_slug }}/common.nim",
+        "{{ cookiecutter.project_slug }}/tests/test.nim", "{{ cookiecutter.project_slug }}/tests/config.nims", "{{ cookiecutter.project_slug }}/.gitignore"]
+  }
