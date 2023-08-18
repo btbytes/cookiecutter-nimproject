@@ -16,8 +16,25 @@ The above assumes you have `cookiecutter` on your system, which can be installed
 
 ## Structure of the nim project
 
-Assuming your project is called `hello`, the `hello` project directory will have the following files and structure
+Assuming your project is called `Nim Boiler Boilerplate`, the `nim_project_boilerplate`  directory will have the following files and structure:
 
 ```
+$ tree .
+.
+├── LICENSE
+├── Makefile
+├── README.md
+├── examples
+│   └── example.nim
+├── nim.cfg
+├── nim_project_boilerplate.nimble
+├── src
+│   ├── nim_project_boilerplate
+│   │   └── common.nim
+│   └── nim_project_boilerplate.nim
+└── tests
+    ├── config.nims
+    └── test.nim
 
+5 directories, 10 files
 ```
