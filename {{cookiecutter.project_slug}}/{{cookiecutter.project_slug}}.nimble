@@ -14,5 +14,7 @@ task release, "Build for release":
 task debug, "Build for debug":
   exec "nimble build -d:debug --debugger:native --verbose -y"
 
-task test, "Run tests":
-  exec "nimble test"
+task tests, "Run all tests":
+  --r
+  --verbosity:0
+  setCommand "c", "tests/test"
