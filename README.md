@@ -7,7 +7,7 @@ This is a [Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/index.htm
 
 To create a new nim project, run this command:
 
-    cookiecutter https://github.com/btbytes/cookiecutter-nimproject
+    cookiecutter https://github.com/btbytes/cookiecutter-nimproject.git
 
 The above assumes you have `cookiecutter` on your system, which can be installed by running:
 
